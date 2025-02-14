@@ -1,4 +1,4 @@
-🎁 Amigo Secreto
+🎁 Challenge Amigo Secreto
 
 Um simples sistema de sorteio de Amigo Secreto feito com HTML, CSS e JavaScript. Adicione os participantes e faça o sorteio garantindo que ninguém tire a si mesmo.
 
