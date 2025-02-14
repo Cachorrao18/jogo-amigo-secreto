@@ -2,22 +2,29 @@
 let amigos = [];
 
 // armazenar os nomes digitados
-function adcionarAmigos () {
+function adicionarAmigos () {
     let amigo = document.getElementById('amigo').value.trim();
 // verificar se tem algum valor no campo
     if (amigo === '') {
         alert('Insira um nome aqui')
-        return
+        return;
     }
     if (amigos.includes(amigo)) {
-        alert('Esse nome já foi adcionado')
+        alert('Esse nome já foi adcionado');
     }
 
     amigos.push(amigo)
 
-    let lista = document.getElementById('listaAmigos')
+// integração ao html
+    let lista = document.getElementById('listaAmigos');
     let item = document.createElement('li');
     item.textContent = amigo;
     lista.appendChild(item);
+
     document.getElementById('amigo').value = '';
+    
+}
+//sortear amigo
+function sortearAmigo() {
+    
 }
