@@ -1,4 +1,7 @@
-//armazenar os nomes digitados
+//inicio
 let amigos = [];
 
-function adcionarAmigos ();
+// armazenar os nomes digitados
+function adcionarAmigos () {
+    let amigo = document.getElementById('amigo').value.trim();
+}
