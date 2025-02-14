@@ -13,4 +13,11 @@ function adcionarAmigos () {
         alert('Esse nome já foi adcionado')
     }
 
+    amigos.push(amigo)
+
+    let lista = document.getElementById('listaAmigos')
+    let item = document.createElement('li');
+    item.textContent = amigo;
+    lista.appendChild(item);
+    document.getElementById('amigo').value = '';
 }
